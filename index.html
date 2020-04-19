@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">  
+    <title>Survey Form - Samuel Crespo</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form by Samuel Crespo</h1> 
+        <p id="description">
+            Gracias por diligenciar este formulario, me es de mucha ayuda para mis retos de Academia Geek :) 
+        </p>
+    </header> 
+    <main>
+        <form  id="survey-form" class="borde">
+             
+            <div class="texto" id="info_texto"> 
+            <label for="name" id="name-label">Nombre del usuario</label> 
+            <input type="text" id="name" name="name" required placeholder="Escribe tu nombre"> 
+
+            <label for="email" id="email-label">Correo Electronico del usuario</label> 
+            <input type="text" id="email" name="email" required placeholder="Escribe tu correo electronico"> 
+
+            <label for="number" id="number-label">Número de contacto (opcional)</label> 
+            <input type="number" id="number" name="number" min="" placeholder="Escribe tu número de contacto">  
+            </div> 
+            
+            <div class="dropdown"> 
+            <label for="dropdown" id="desplegable">¿A qué te dedicas? </label>
+            <select id="dropdown"> 
+                <option value="Estudiante">Estudiante</option>
+                <option value="Empleado">Empleado</option>
+                <option value="Estudiante-Empleado">Estudiante-Empleado</option>
+                <option value="Ninguno">Ninguno</option> 
+            </select>
+            </div> 
+             
+            <div class="radio"> 
+             <p> <strong> 
+                 Por favor selecciona el genero con el cual te identificas </strong></p>
+            
+            <label for="masculino" id="boton_input"> 
+                <input type="radio" name="genero" value="masculino" id="boton_input">Masculino</label> 
+            
+            <label for="femenino" id="boton_input">
+                <input type="radio" name="genero" value="femenino" id="boton_input">Femenimo</label> 
+             
+            <label for="cis" id="boton_input">  
+                <input type="radio" name="genero" value="cis" id="boton_input">Cis-genero</label> 
+
+            </div> 
+             
+            <div class="checkbox"> 
+                <p> <strong> 
+                    Selecciona lo que más te guste hacer en tus ratos libres ;) 
+                 </strong> </p>
+
+                <label for="ver_anime" id="gustos">
+                <input type="checkbox" name="tus_preferencias" value="ver_anime" id="ver_anime"> 
+                Ver anime </label>
+
+                <label for="ver_series"  id="gustos" >
+                <input type="checkbox" name="tus_preferencias" value="ver_series" id="ver_series"> 
+                    Ver series </label> 
+
+                <label for="escuchar_musica"  id="gustos" > 
+                <input type="checkbox" name="tus_preferencias"  value="escuchar_musica" id="escuchar_musica">  
+                        Escuchar música </label> 
+        
+            <div class="textarea" id="comentario">  
+            <p><strong> 
+                Por favor, escribe un comentario extra que consideres necesario de utilidad, te lo agradeceré mucho ;)
+            </strong></p>
+            <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Escribe tus comentario"></textarea> 
+            </div>
+
+            <div> 
+            <input type="submit" value="enviar">
+            </div>
+
+        </form> 
+
+        <footer> 
+            <p3> Realizado por Samuel Crespo, para AcademiaGeek 
+                &#169; 2020 </p3> 
+    
+    </main>
+
+</body>
+</html>

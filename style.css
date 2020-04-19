@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #B6BAF0; 
+}
+header {
+    text-align: center;
+    margin-top: 0 auto;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #C5CAFF;
+    width: 70%;
+    border-radius: 20px; 
+    margin: auto;
+    margin-top: 0.3%; 
+}
+
+.borde {
+    border: 1px solid black;
+    border-radius: 3%; 
+
+} 
+#survey-form{ 
+    margin: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%; 
+    background-color: antiquewhite; 
+    -ms-flex-align: block; 
+    padding: 10px 5px 2px 5px; 
+    width: 55%; 
+    height: 50%; 
+   text-align: center;
+   
+}
+.texto {
+    margin-top: 0;
+    margin-bottom: 0.5rem; 
+    display: flex;
+    flex-direction: column; 
+     
+}
+#name-label, #email-label, #number-label{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+#name, #email, #number { 
+    width: 55%; 
+    margin: 5px auto;
+    border-style: groove;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: medium;
+    padding: 1px;
+}
+.dropdown {
+    margin-top: 2%;
+    margin: 2%;
+
+}
+#desplegable {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: medium;
+    font-style: oblique; 
+    font-weight: bold; 
+}
+#dropdown {
+    width: 35%; 
+    margin: 5px auto;
+    border-style: groove;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: medium;
+    font-style: oblique; 
+    padding: 1px;
+}
+.radio p{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: large; 
+    font-style: oblique;
+}
+#boton_input { 
+    margin-right: 0; 
+    margin-top: 1%;
+    margin-bottom: 1%; 
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: large; 
+    font-style: oblique;
+    justify-content: center;
+}
+.checkbox p {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: large; 
+    font-style: oblique;
+}
+#gustos{
+    margin-right: 0; 
+    margin-top: 1%;
+    margin-bottom: 1%; 
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: large; 
+    font-style: oblique;
+    justify-content: center;  
+}
+#comentario{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: large; 
+    font-style: oblique;
+    justify-content: center;   
+}
+#comentario textarea{
+    border-radius: 3px;
+}
+p3 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large; 
+    font-style: oblique; 
+}
